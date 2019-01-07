@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Demo.cs" />
+     <Compile Include="Assets\Scripts\GyroControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerControler.cs" />
+     <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/PLIKI Z PULPITU/STUDIA/Programowanie/aplikacje_mobilne/shooter_project/shooter_project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

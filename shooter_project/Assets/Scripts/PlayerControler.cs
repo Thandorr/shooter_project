@@ -21,7 +21,8 @@ public class PlayerControler : MonoBehaviour {
     }
 	private void Move()
     {
-        thisRigidbody.AddForce((MoveVector * moveSpeed));
+        var a = Input.GetAxis("Vertical") * Time.deltaTime *5;
+        transform.Translate(Vector3.forward * a);
     }
 
 	// Update is called once per frame

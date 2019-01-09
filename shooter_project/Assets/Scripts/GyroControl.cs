@@ -22,7 +22,7 @@ public class GyroControl : MonoBehaviour {
         cameraContainer.transform.position = transform.position;
         cameraContainer.transform.rotation = Quaternion.Euler(90f, 90f, 0f);
         transform.SetParent(cameraContainer.transform);
-        cameraContainer.transform.parent = body.transform;
+       // cameraContainer.transform.parent = body.transform;
         gyroEnabled = EnableGyro();
 	}
 	
@@ -35,6 +35,10 @@ public class GyroControl : MonoBehaviour {
         if(gyroEnabled)
         {
             transform.localRotation = gyro.attitude * rot;
+           
+            
+
+
         }
     }
     private bool EnableGyro()

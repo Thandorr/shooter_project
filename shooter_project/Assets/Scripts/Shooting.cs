@@ -6,7 +6,7 @@ public class Shooting : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		dupa dupa 
+		
 	}
 	
 	// Update is called once per frame

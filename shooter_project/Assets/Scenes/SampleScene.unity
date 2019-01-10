@@ -1079,6 +1079,10 @@ Prefab:
       propertyPath: mouseLook.lockCursor
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4600142951207342, guid: e8dcf6996c615ca4aaa7c7f041dbc33a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8dcf6996c615ca4aaa7c7f041dbc33a, type: 2}
   m_IsPrefabAsset: 0
